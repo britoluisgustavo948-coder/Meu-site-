@@ -1,0 +1,671 @@
+/* =====================================================
+   SITE - TECNOLOGIA, IA E IMPRESSÃO 3D
+   Tema: Preto + Branco + Azul
+   ===================================================== */
+
+:root {
+    --bg: #050505;
+    --bg-card: #0d0d0d;
+    --bg-card-hover: #121212;
+    --text: #ffffff;
+    --text-muted: #a7a7a7;
+    --blue: #168cff;
+    --blue-light: #55b3ff;
+    --border: rgba(255, 255, 255, 0.09);
+    --shadow: 0 15px 45px rgba(0, 0, 0, 0.45);
+    --radius: 18px;
+    --max-width: 1100px;
+}
+
+/* ---------- RESET ---------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+button,
+a {
+    -webkit-tap-highlight-color: transparent;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/* ---------- UTILIDADES ---------- */
+
+.container {
+    width: min(92%, var(--max-width));
+    margin: 0 auto;
+}
+
+.blue {
+    color: var(--blue);
+}
+
+.section {
+    padding: 90px 0;
+}
+
+.section-title {
+    font-size: clamp(2rem, 5vw, 3rem);
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.section-subtitle {
+    max-width: 650px;
+    margin: 0 auto 50px;
+    color: var(--text-muted);
+    text-align: center;
+}
+
+/* ---------- HEADER ---------- */
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background: rgba(5, 5, 5, 0.82);
+    backdrop-filter: blur(14px);
+    border-bottom: 1px solid var(--border);
+}
+
+.navbar {
+    width: min(92%, var(--max-width));
+    height: 72px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 1.25rem;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+}
+
+.logo span {
+    color: var(--blue);
+}
+
+.nav-links {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+}
+
+.nav-links a {
+    color: #ddd;
+    font-size: 0.95rem;
+    transition: 0.25s;
+}
+
+.nav-links a:hover,
+.nav-links a.active {
+    color: var(--blue);
+}
+
+.menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.7rem;
+    cursor: pointer;
+}
+
+/* ---------- HERO ---------- */
+
+.hero {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding-top: 72px;
+    background:
+        radial-gradient(
+            circle at 80% 20%,
+            rgba(22, 140, 255, 0.14),
+            transparent 35%
+        );
+}
+
+.hero-content {
+    max-width: 780px;
+}
+
+.hero-tag {
+    display: inline-block;
+    color: var(--blue-light);
+    border: 1px solid rgba(22, 140, 255, 0.35);
+    background: rgba(22, 140, 255, 0.08);
+    padding: 7px 13px;
+    border-radius: 999px;
+    margin-bottom: 22px;
+    font-size: 0.85rem;
+}
+
+.hero h1 {
+    font-size: clamp(2.7rem, 8vw, 5.5rem);
+    line-height: 1.02;
+    letter-spacing: -2px;
+    margin-bottom: 25px;
+}
+
+.hero h1 span {
+    color: var(--blue);
+}
+
+.hero p {
+    max-width: 650px;
+    color: var(--text-muted);
+    font-size: 1.08rem;
+    margin-bottom: 32px;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 14px;
+    flex-wrap: wrap;
+}
+
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 13px 22px;
+    border-radius: 10px;
+    font-weight: 700;
+    border: 1px solid transparent;
+    transition: 0.25s;
+}
+
+.btn-primary {
+    background: var(--blue);
+    color: white;
+    box-shadow: 0 8px 25px rgba(22, 140, 255, 0.2);
+}
+
+.btn-primary:hover {
+    transform: translateY(-2px);
+    background: #087ce8;
+}
+
+.btn-outline {
+    border-color: var(--border);
+    color: white;
+}
+
+.btn-outline:hover {
+    border-color: var(--blue);
+    color: var(--blue);
+}
+
+/* ---------- SOBRE ---------- */
+
+.about-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 30px;
+    box-shadow: var(--shadow);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    border-color: rgba(22, 140, 255, 0.35);
+}
+
+.card h3 {
+    margin-bottom: 12px;
+    font-size: 1.25rem;
+}
+
+.card p {
+    color: var(--text-muted);
+}
+
+/* ---------- TECNOLOGIAS ---------- */
+
+.tech-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 18px;
+}
+
+.tech-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 25px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.tech-card:hover {
+    transform: translateY(-6px);
+    border-color: var(--blue);
+}
+
+.tech-icon {
+    width: 55px;
+    height: 55px;
+    margin: 0 auto 15px;
+    display: grid;
+    place-items: center;
+    border-radius: 14px;
+    background: rgba(22, 140, 255, 0.1);
+    color: var(--blue);
+    font-size: 1.4rem;
+    font-weight: 800;
+}
+
+.tech-card h3 {
+    margin-bottom: 7px;
+}
+
+.tech-card p {
+    color: var(--text-muted);
+    font-size: 0.9rem;
+}
+
+/* ---------- RENDA ---------- */
+
+.income-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.income-card {
+    background: linear-gradient(
+        145deg,
+        #101010,
+        #080808
+    );
+    border: 1px solid var(--border);
+    padding: 30px;
+    border-radius: var(--radius);
+    transition: 0.3s;
+}
+
+.income-card:hover {
+    border-color: rgba(22, 140, 255, 0.45);
+}
+
+.income-number {
+    color: var(--blue);
+    font-size: 0.8rem;
+    font-weight: 800;
+    margin-bottom: 12px;
+}
+
+.income-card h3 {
+    margin-bottom: 10px;
+}
+
+.income-card p {
+    color: var(--text-muted);
+}
+
+.income-card ul {
+    margin-top: 15px;
+    padding-left: 20px;
+    color: #ccc;
+}
+
+.income-card li {
+    margin-bottom: 7px;
+}
+
+/* ---------- PORTFÓLIO ---------- */
+
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 22px;
+}
+
+.project {
+    position: relative;
+    overflow: hidden;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 30px;
+    transition: 0.3s;
+}
+
+.project:hover {
+    transform: translateY(-5px);
+    border-color: rgba(22, 140, 255, 0.45);
+}
+
+.project-number {
+    color: var(--blue);
+    font-size: 0.8rem;
+    font-weight: 800;
+    margin-bottom: 12px;
+}
+
+.project h3 {
+    margin-bottom: 10px;
+}
+
+.project p {
+    color: var(--text-muted);
+    margin-bottom: 18px;
+}
+
+.project-status {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 999px;
+    background: rgba(22, 140, 255, 0.1);
+    color: var(--blue-light);
+    font-size: 0.78rem;
+}
+
+/* ---------- METAS ---------- */
+
+.goals {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.goal {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    padding: 28px;
+    border-radius: var(--radius);
+}
+
+.goal h3 {
+    color: var(--blue);
+    margin-bottom: 12px;
+}
+
+.goal ul {
+    padding-left: 20px;
+    color: var(--text-muted);
+}
+
+.goal li {
+    margin-bottom: 8px;
+}
+
+/* ---------- PLANO ---------- */
+
+.timeline {
+    position: relative;
+    max-width: 800px;
+    margin: auto;
+}
+
+.timeline::before {
+    content: "";
+    position: absolute;
+    left: 18px;
+    top: 0;
+    width: 2px;
+    height: 100%;
+    background: rgba(22, 140, 255, 0.35);
+}
+
+.timeline-item {
+    position: relative;
+    padding-left: 55px;
+    margin-bottom: 35px;
+}
+
+.timeline-dot {
+    position: absolute;
+    left: 9px;
+    top: 5px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: var(--blue);
+    box-shadow: 0 0 20px rgba(22, 140, 255, 0.5);
+}
+
+.timeline-item h3 {
+    margin-bottom: 7px;
+}
+
+.timeline-item p {
+    color: var(--text-muted);
+}
+
+/* ---------- CONTATO ---------- */
+
+.contact-box {
+    text-align: center;
+    max-width: 750px;
+    margin: auto;
+    padding: 55px 30px;
+    border-radius: var(--radius);
+    background:
+        radial-gradient(
+            circle at center,
+            rgba(22, 140, 255, 0.13),
+            transparent 65%
+        ),
+        var(--bg-card);
+    border: 1px solid var(--border);
+}
+
+.contact-box h2 {
+    font-size: clamp(2rem, 5vw, 3rem);
+    margin-bottom: 15px;
+}
+
+.contact-box p {
+    color: var(--text-muted);
+    margin-bottom: 28px;
+}
+
+/* ---------- WHATSAPP ---------- */
+
+.whatsapp {
+    position: fixed;
+    right: 22px;
+    bottom: 22px;
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    background: #25d366;
+    color: white;
+    font-weight: 800;
+    font-size: 0.85rem;
+    z-index: 999;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+    transition: 0.25s;
+}
+
+.whatsapp:hover {
+    transform: scale(1.08);
+}
+
+/* ---------- VOLTAR AO TOPO ---------- */
+
+.back-to-top {
+    position: fixed;
+    right: 22px;
+    bottom: 92px;
+    width: 42px;
+    height: 42px;
+    border: 1px solid var(--border);
+    background: #111;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.3s;
+    z-index: 998;
+}
+
+.back-to-top.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+/* ---------- FOOTER ---------- */
+
+footer {
+    padding: 35px 0;
+    border-top: 1px solid var(--border);
+    text-align: center;
+}
+
+footer p {
+    color: var(--text-muted);
+    font-size: 0.9rem;
+}
+
+footer span {
+    color: var(--blue);
+}
+
+/* ---------- ANIMAÇÕES ---------- */
+
+.reveal {
+    opacity: 0;
+    transform: translateY(30px);
+    transition:
+        opacity 0.7s ease,
+        transform 0.7s ease;
+}
+
+.reveal.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* ---------- RESPONSIVIDADE ---------- */
+
+@media (max-width: 850px) {
+
+    .nav-links {
+        position: absolute;
+        top: 72px;
+        left: 0;
+        width: 100%;
+        background: rgba(5, 5, 5, 0.97);
+        border-bottom: 1px solid var(--border);
+        flex-direction: column;
+        padding: 25px;
+        gap: 18px;
+        transform: translateY(-150%);
+        transition: 0.3s;
+    }
+
+    .nav-links.open {
+        transform: translateY(0);
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+
+    .about-grid,
+    .income-grid,
+    .portfolio-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .tech-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .goals {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 520px) {
+
+    .section {
+        padding: 70px 0;
+    }
+
+    .hero h1 {
+        letter-spacing: -1px;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+
+    .hero-buttons {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .btn {
+        width: 100%;
+    }
+
+    .tech-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .card,
+    .income-card,
+    .project,
+    .goal {
+        padding: 23px;
+    }
+
+    .whatsapp {
+        right: 16px;
+        bottom: 16px;
+    }
+
+    .back-to-top {
+        right: 16px;
+        bottom: 86px;
+    }
+}
+
+/* ---------- SELEÇÃO DE TEXTO ---------- */
+
+::selection {
+    background: var(--blue);
+    color: white;
+}
