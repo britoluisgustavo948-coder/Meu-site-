@@ -1,0 +1,902 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="Portfólio e plano de desenvolvimento em Inteligência Artificial, programação, desenvolvimento web e impressão 3D."
+    >
+
+    <title>Meu Projeto | Tecnologia e IA</title>
+
+    <link
+        rel="stylesheet"
+        href="style.css"
+    >
+</head>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+
+    <header>
+
+        <nav class="navbar">
+
+            <a href="#inicio" class="logo">
+                MEU<span>PROJETO</span>
+            </a>
+
+            <button
+                class="menu-toggle"
+                aria-label="Abrir menu"
+                aria-expanded="false"
+            >
+                ☰
+            </button>
+
+            <ul class="nav-links">
+
+                <li>
+                    <a href="#inicio">Início</a>
+                </li>
+
+                <li>
+                    <a href="#sobre">Sobre</a>
+                </li>
+
+                <li>
+                    <a href="#aprendizado">Aprendizado</a>
+                </li>
+
+                <li>
+                    <a href="#renda">Renda</a>
+                </li>
+
+                <li>
+                    <a href="#portfolio">Portfólio</a>
+                </li>
+
+                <li>
+                    <a href="#metas">Metas</a>
+                </li>
+
+                <li>
+                    <a href="#contato">Contato</a>
+                </li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+
+    <!-- ================= INÍCIO ================= -->
+
+    <main>
+
+        <section
+            id="inicio"
+            class="hero"
+        >
+
+            <div class="container">
+
+                <div class="hero-content reveal">
+
+                    <span class="hero-tag">
+                        🚀 Construindo meu futuro através da tecnologia
+                    </span>
+
+                    <h1>
+                        Transformando
+                        <span>tecnologia</span>
+                        em oportunidades.
+                    </h1>
+
+                    <p>
+                        Um projeto pessoal focado em aprender
+                        Inteligência Artificial, programação,
+                        desenvolvimento web e impressão 3D,
+                        transformando conhecimento em projetos
+                        e oportunidades de renda.
+                    </p>
+
+                    <div class="hero-buttons">
+
+                        <a
+                            href="#portfolio"
+                            class="btn btn-primary"
+                        >
+                            Conheça meu projeto
+                        </a>
+
+                        <a
+                            href="#aprendizado"
+                            class="btn btn-outline"
+                        >
+                            Ver meu plano
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= SOBRE ================= -->
+
+        <section
+            id="sobre"
+            class="section"
+        >
+
+            <div class="container">
+
+                <h2 class="section-title reveal">
+                    Sobre <span class="blue">o projeto</span>
+                </h2>
+
+                <p class="section-subtitle reveal">
+                    A ideia é transformar o computador em uma
+                    ferramenta de aprendizado, criação e
+                    desenvolvimento profissional.
+                </p>
+
+
+                <div class="about-grid">
+
+                    <article class="card reveal">
+
+                        <h3>
+                            🎯 Meu objetivo
+                        </h3>
+
+                        <p>
+                            Desenvolver habilidades práticas
+                            em tecnologia e criar projetos
+                            que possam futuramente gerar
+                            oportunidades profissionais e
+                            fontes de renda.
+                        </p>
+
+                    </article>
+
+
+                    <article class="card reveal">
+
+                        <h3>
+                            💡 Minha estratégia
+                        </h3>
+
+                        <p>
+                            Estudar, praticar, construir
+                            projetos reais, criar um portfólio
+                            e utilizar os conhecimentos
+                            adquiridos para oferecer soluções
+                            para outras pessoas e empresas.
+                        </p>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= APRENDIZADO ================= -->
+
+        <section
+            id="aprendizado"
+            class="section"
+        >
+
+            <div class="container">
+
+                <h2 class="section-title reveal">
+                    Plano de <span class="blue">aprendizado</span>
+                </h2>
+
+                <p class="section-subtitle reveal">
+                    Quatro áreas principais para construir
+                    uma base sólida em tecnologia.
+                </p>
+
+
+                <div class="tech-grid">
+
+                    <article class="tech-card reveal">
+
+                        <div class="tech-icon">
+                            AI
+                        </div>
+
+                        <h3>
+                            Inteligência Artificial
+                        </h3>
+
+                        <p>
+                            Aprender fundamentos de IA,
+                            ferramentas, automações e
+                            criação de soluções inteligentes.
+                        </p>
+
+                    </article>
+
+
+                    <article class="tech-card reveal">
+
+                        <div class="tech-icon">
+                            PY
+                        </div>
+
+                        <h3>
+                            Python
+                        </h3>
+
+                        <p>
+                            Construir uma base de programação
+                            e desenvolver pequenos sistemas,
+                            automações e ferramentas.
+                        </p>
+
+                    </article>
+
+
+                    <article class="tech-card reveal">
+
+                        <div class="tech-icon">
+                            WEB
+                        </div>
+
+                        <h3>
+                            Desenvolvimento Web
+                        </h3>
+
+                        <p>
+                            Aprender HTML, CSS e JavaScript
+                            para criar sites modernos,
+                            responsivos e funcionais.
+                        </p>
+
+                    </article>
+
+
+                    <article class="tech-card reveal">
+
+                        <div class="tech-icon">
+                            3D
+                        </div>
+
+                        <h3>
+                            Impressão 3D
+                        </h3>
+
+                        <p>
+                            Aprender modelagem, preparação
+                            de arquivos e desenvolvimento
+                            de produtos personalizados.
+                        </p>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= COMO GERAR RENDA ================= -->
+
+        <section
+            id="renda"
+            class="section"
+        >
+
+            <div class="container">
+
+                <h2 class="section-title reveal">
+                    Como pretendo
+                    <span class="blue">gerar renda</span>
+                </h2>
+
+                <p class="section-subtitle reveal">
+                    A ideia não é depender apenas do computador,
+                    mas utilizar as habilidades desenvolvidas
+                    para criar produtos e serviços.
+                </p>
+
+
+                <div class="income-grid">
+
+
+                    <article class="income-card reveal">
+
+                        <div class="income-number">
+                            01 — IA
+                        </div>
+
+                        <h3>
+                            Soluções com Inteligência Artificial
+                        </h3>
+
+                        <p>
+                            Criar soluções simples utilizando
+                            ferramentas de IA para ajudar pessoas
+                            e pequenos negócios.
+                        </p>
+
+                        <ul>
+
+                            <li>
+                                Assistentes inteligentes
+                            </li>
+
+                            <li>
+                                Automação de tarefas
+                            </li>
+
+                            <li>
+                                Organização de informações
+                            </li>
+
+                        </ul>
+
+                    </article>
+
+
+                    <article class="income-card reveal">
+
+                        <div class="income-number">
+                            02 — PROGRAMAÇÃO
+                        </div>
+
+                        <h3>
+                            Automação e Python
+                        </h3>
+
+                        <p>
+                            Desenvolver pequenos programas e
+                            automações capazes de resolver
+                            tarefas repetitivas.
+                        </p>
+
+                        <ul>
+
+                            <li>
+                                Scripts personalizados
+                            </li>
+
+                            <li>
+                                Automatização de tarefas
+                            </li>
+
+                            <li>
+                                Ferramentas simples
+                            </li>
+
+                        </ul>
+
+                    </article>
+
+
+                    <article class="income-card reveal">
+
+                        <div class="income-number">
+                            03 — WEB
+                        </div>
+
+                        <h3>
+                            Criação de sites
+                        </h3>
+
+                        <p>
+                            Criar páginas profissionais para
+                            pessoas, projetos e pequenos
+                            negócios.
+                        </p>
+
+                        <ul>
+
+                            <li>
+                                Landing pages
+                            </li>
+
+                            <li>
+                                Portfólios
+                            </li>
+
+                            <li>
+                                Sites institucionais
+                            </li>
+
+                        </ul>
+
+                    </article>
+
+
+                    <article class="income-card reveal">
+
+                        <div class="income-number">
+                            04 — IMPRESSÃO 3D
+                        </div>
+
+                        <h3>
+                            Produtos personalizados
+                        </h3>
+
+                        <p>
+                            Criar e vender objetos personalizados
+                            utilizando modelagem e impressão 3D.
+                        </p>
+
+                        <ul>
+
+                            <li>
+                                Peças personalizadas
+                            </li>
+
+                            <li>
+                                Decoração
+                            </li>
+
+                            <li>
+                                Protótipos e acessórios
+                            </li>
+
+                        </ul>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= PORTFÓLIO ================= -->
+
+        <section
+            id="portfolio"
+            class="section"
+        >
+
+            <div class="container">
+
+                <h2 class="section-title reveal">
+                    Meu <span class="blue">portfólio</span>
+                </h2>
+
+                <p class="section-subtitle reveal">
+                    Projetos que representam minha evolução
+                    durante o processo de aprendizado.
+                </p>
+
+
+                <div class="portfolio-grid">
+
+
+                    <article class="project reveal">
+
+                        <div class="project-number">
+                            PROJETO 01
+                        </div>
+
+                        <h3>
+                            Primeiro site profissional
+                        </h3>
+
+                        <p>
+                            Desenvolvimento de uma página
+                            moderna utilizando HTML, CSS
+                            e JavaScript.
+                        </p>
+
+                        <span class="project-status">
+                            Em desenvolvimento
+                        </span>
+
+                    </article>
+
+
+                    <article class="project reveal">
+
+                        <div class="project-number">
+                            PROJETO 02
+                        </div>
+
+                        <h3>
+                            Automação com Python
+                        </h3>
+
+                        <p>
+                            Primeiro projeto voltado para
+                            automatizar uma tarefa real
+                            utilizando programação.
+                        </p>
+
+                        <span class="project-status">
+                            Planejado
+                        </span>
+
+                    </article>
+
+
+                    <article class="project reveal">
+
+                        <div class="project-number">
+                            PROJETO 03
+                        </div>
+
+                        <h3>
+                            Projeto de Inteligência Artificial
+                        </h3>
+
+                        <p>
+                            Desenvolvimento de uma solução
+                            utilizando ferramentas de IA
+                            para resolver um problema prático.
+                        </p>
+
+                        <span class="project-status">
+                            Planejado
+                        </span>
+
+                    </article>
+
+
+                    <article class="project reveal">
+
+                        <div class="project-number">
+                            PROJETO 04
+                        </div>
+
+                        <h3>
+                            Primeiro projeto em 3D
+                        </h3>
+
+                        <p>
+                            Criação de uma peça ou produto
+                            personalizado para impressão 3D.
+                        </p>
+
+                        <span class="project-status">
+                            Planejado
+                        </span>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= METAS ================= -->
+
+        <section
+            id="metas"
+            class="section"
+        >
+
+            <div class="container">
+
+                <h2 class="section-title reveal">
+                    Minhas <span class="blue">metas</span>
+                </h2>
+
+                <p class="section-subtitle reveal">
+                    Evolução passo a passo, começando pelo
+                    aprendizado e chegando à criação de projetos.
+                </p>
+
+
+                <div class="goals">
+
+
+                    <article class="goal reveal">
+
+                        <h3>
+                            Curto prazo
+                        </h3>
+
+                        <ul>
+
+                            <li>
+                                Aprender fundamentos de Python
+                            </li>
+
+                            <li>
+                                Aprender HTML e CSS
+                            </li>
+
+                            <li>
+                                Conhecer ferramentas de IA
+                            </li>
+
+                            <li>
+                                Estudar modelagem 3D
+                            </li>
+
+                        </ul>
+
+                    </article>
+
+
+                    <article class="goal reveal">
+
+                        <h3>
+                            Médio prazo
+                        </h3>
+
+                        <ul>
+
+                            <li>
+                                Criar projetos próprios
+                            </li>
+
+                            <li>
+                                Montar um portfólio
+                            </li>
+
+                            <li>
+                                Desenvolver sites
+                            </li>
+
+                            <li>
+                                Criar automações
+                            </li>
+
+                        </ul>
+
+                    </article>
+
+
+                    <article class="goal reveal">
+
+                        <h3>
+                            Longo prazo
+                        </h3>
+
+                        <ul>
+
+                            <li>
+                                Conseguir os primeiros clientes
+                            </li>
+
+                            <li>
+                                Vender serviços e produtos
+                            </li>
+
+                            <li>
+                                Criar projetos maiores
+                            </li>
+
+                            <li>
+                                Reinvestir parte dos ganhos
+                            </li>
+
+                        </ul>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= LINHA DO TEMPO ================= -->
+
+        <section class="section">
+
+            <div class="container">
+
+                <h2 class="section-title reveal">
+                    Minha <span class="blue">evolução</span>
+                </h2>
+
+                <p class="section-subtitle reveal">
+                    Um caminho progressivo para transformar
+                    conhecimento em experiência.
+                </p>
+
+
+                <div class="timeline">
+
+
+                    <div class="timeline-item reveal">
+
+                        <div class="timeline-dot"></div>
+
+                        <h3>
+                            Etapa 01 — Fundamentos
+                        </h3>
+
+                        <p>
+                            Aprender lógica de programação,
+                            HTML, CSS, Python e conceitos
+                            básicos de Inteligência Artificial.
+                        </p>
+
+                    </div>
+
+
+                    <div class="timeline-item reveal">
+
+                        <div class="timeline-dot"></div>
+
+                        <h3>
+                            Etapa 02 — Projetos
+                        </h3>
+
+                        <p>
+                            Colocar o conhecimento em prática
+                            criando projetos próprios e
+                            documentando cada evolução.
+                        </p>
+
+                    </div>
+
+
+                    <div class="timeline-item reveal">
+
+                        <div class="timeline-dot"></div>
+
+                        <h3>
+                            Etapa 03 — Portfólio
+                        </h3>
+
+                        <p>
+                            Organizar os melhores projetos
+                            em um portfólio profissional.
+                        </p>
+
+                    </div>
+
+
+                    <div class="timeline-item reveal">
+
+                        <div class="timeline-dot"></div>
+
+                        <h3>
+                            Etapa 04 — Primeiros clientes
+                        </h3>
+
+                        <p>
+                            Utilizar as habilidades adquiridas
+                            para oferecer serviços e produtos
+                            de forma responsável.
+                        </p>
+
+                    </div>
+
+
+                    <div class="timeline-item reveal">
+
+                        <div class="timeline-dot"></div>
+
+                        <h3>
+                            Etapa 05 — Crescimento
+                        </h3>
+
+                        <p>
+                            Reinvestir parte dos resultados,
+                            melhorar os equipamentos e
+                            desenvolver projetos cada vez maiores.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= CONTATO ================= -->
+
+        <section
+            id="contato"
+            class="section"
+        >
+
+            <div class="container">
+
+                <div class="contact-box reveal">
+
+                    <h2>
+                        Vamos <span class="blue">conversar?</span>
+                    </h2>
+
+                    <p>
+                        Este projeto está apenas começando.
+                        O objetivo é aprender, construir,
+                        evoluir e transformar conhecimento
+                        em oportunidades reais.
+                    </p>
+
+                    <a
+                        href="https://wa.me/5575982302943"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="btn btn-primary"
+                    >
+                        Falar comigo no WhatsApp
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ================= BOTÃO WHATSAPP ================= -->
+
+    <a
+        class="whatsapp"
+        href="https://wa.me/5575982302943"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Falar comigo pelo WhatsApp"
+    >
+        WA
+    </a>
+
+
+    <!-- ================= VOLTAR AO TOPO ================= -->
+
+    <button
+        class="back-to-top"
+        aria-label="Voltar ao topo"
+    >
+        ↑
+    </button>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <div class="container">
+
+            <p>
+                © <span id="year"></span>
+                Meu Projeto.
+                Construindo o futuro através da
+                <span>tecnologia</span>.
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <!-- ================= JAVASCRIPT ================= -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
